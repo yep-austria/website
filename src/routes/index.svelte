@@ -15,11 +15,11 @@ Für mehr Mitsprache und wahre Mitbestimmung in der Gesellschaft.
 <header>
   <div class="headerwidth">
     <div class="yep">
-      <img src="./assets/yep-logo.png" title="YEP-Austria" alt="YEP Logo" />
+      <img src="/assets/yep-logo.png" title="YEP-Austria" alt="YEP Logo" />
     </div>
     <div class="subline">
       <img
-        src="./assets/stimme-der-jugend.png"
+        src="/assets/stimme-der-jugend.png"
         title="YEP - Stimme der Jugend"
         alt="Stimme der Jugend"
       />
@@ -69,7 +69,7 @@ Für mehr Mitsprache und wahre Mitbestimmung in der Gesellschaft.
   <div class="contentwidth">
     <div class="design">
       <img
-        src="./assets/yep_graphic.png"
+        src="/assets/yep_graphic.png"
         title="YEP neues Brand Design"
         alt="Illustration YEP Austria neues Design"
       />
@@ -77,7 +77,7 @@ Für mehr Mitsprache und wahre Mitbestimmung in der Gesellschaft.
       <p>Bleib dran, bald findest du hier unsere Webseite.</p>
     </div>
     <div class="design">
-      <img src="./assets/yep_contact.png" title="Schreib uns!" alt="Illustration Kontakt" />
+      <img src="/assets/yep_contact.png" title="Schreib uns!" alt="Illustration Kontakt" />
       <h2>Lass von dir hören!</h2>
       <p>
         Du willst mitmachen? Mitreden? Wissen, was zur Hölle wir da machen?<br />

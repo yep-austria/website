@@ -107,7 +107,7 @@ header {
   min-height: 600px;
   text-align: center;
   background-color: #7cefc0;
-  background-image: url('./assets/header_background.png');
+  background-image: url('/assets/header_background.png');
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -149,7 +149,7 @@ header .subline img {
   color: white;
   font-style: italic;
   max-width: 370px;
-  background-image: url('./assets/hands.png');
+  background-image: url('/assets/hands.png');
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -190,7 +190,7 @@ header .subline img {
   color: white;
   font-style: italic;
   max-width: 370px;
-  background-image: url('./assets/lightning.png');
+  background-image: url('/assets/lightning.png');
   background-size: 20%;
   background-repeat: no-repeat;
   background-position: top center;
