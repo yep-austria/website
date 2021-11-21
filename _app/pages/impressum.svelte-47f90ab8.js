@@ -1,4 +1,4 @@
-import{S as ie,i as se,s as ae,e as r,t as s,k as c,c as i,a as h,g as a,d as l,n as d,b as D,f as le,D as e,E as Q}from"../chunks/vendor-b4262478.js";function he(re){let t,m,P,B,o,G,J,S,W,v,I,M,u,R,T,x,y,Y,A,z,H,F,k,Z,j,f,b,q,C,_,K,g,L,N,O;return{c(){t=r("div"),m=r("h1"),P=s("Impressum"),B=c(),o=r("p"),G=s("YEP - Stimme der Jugend"),J=r("br"),S=s(`
+import{S as ie,i as se,s as ae,e as r,t as s,k as c,c as i,a as h,g as a,d as l,n as d,b as D,f as le,D as e,E as Q}from"../chunks/vendor-303720d4.js";function he(re){let t,m,P,B,o,G,J,S,W,v,I,M,u,R,T,x,y,Y,A,z,H,F,k,Z,j,f,b,q,C,_,K,g,L,N,O;return{c(){t=r("div"),m=r("h1"),P=s("Impressum"),B=c(),o=r("p"),G=s("YEP - Stimme der Jugend"),J=r("br"),S=s(`
     Verein f\xFCr Mitbestimmung, gesellschaftliche Partizipation und Empowerment von Jugendlichen.`),W=c(),v=r("h3"),I=s("Vereinszweck"),M=c(),u=r("p"),R=s(`Die Vereinst\xE4tigkeit ist nicht auf Gewinn ausgerichtet und bezweckt ausschlie\xDFlich und
     unmittelbar die F\xF6rderung von Jugendlichen im Bereich Bildung, Selbsterm\xE4chtigung, Teilhabe und
     Mitbestimmung in der Gesellschaft. `),T=r("br"),x=s(`
