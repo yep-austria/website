@@ -10,13 +10,13 @@ const config = {
   kit: {
     // hydrate the <div id="svelte"> element in src/app.html
     target: '#svelte',
+    trailingSlash: 'always',
     adapter: adapter({
-      fallback: '200.html',
+      // default options are shown
+      pages: 'build',
+      assets: 'build',
+      fallback: null,
     }),
-    prerender: {
-      enabled: false,
-    },
-    ssr: false,
   },
 }
 

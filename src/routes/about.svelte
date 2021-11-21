@@ -12,7 +12,7 @@
   <!--Image:-->
   <div class="headerimg">
     <img
-      src="./assets/yep-aboutimg.jpg"
+      src="/assets/yep-aboutimg.jpg"
       title="YEP Jugendliche"
       alt="Jugendliche befinden sich im Raum und diskutieren."
     />
