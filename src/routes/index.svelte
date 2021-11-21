@@ -48,6 +48,7 @@ Für mehr Mitsprache und wahre Mitbestimmung in der Gesellschaft.
 <div class="part2">
   <div class="contentwidth">
     <h1>“If it’s about them, don’t do it without ’em.”</h1>
+
     <div class="content">
       <p><strong> Die Zukunft gehört nicht nur euch,<br /> sie gehört auch uns.<br /></strong></p>
       <p>
