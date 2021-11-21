@@ -1,14 +1,14 @@
 <nav>
   <a class="home" href="/">YEP</a>
   <div class="menu">
-    <a href="/reports/">Berichte</a>
+    <a href="/reports/">Jugendberichte</a>
     <a href="/about/">About</a>
   </div>
 </nav>
 
 <style lang="scss">
   nav {
-    background-color: #7cefc0;
+    background-color: var(--primary-color);
     padding: 0 var(--content-calculated-padding);
     height: 3.125rem;
     display: flex;

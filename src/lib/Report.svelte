@@ -1,24 +1,42 @@
 <script lang="ts">
+  import type { Report } from '$lib/prismic-types'
   import * as prismic from '@prismicio/helpers'
   import filesize from 'filesize'
-  import type { RichTextField, ImageFieldImage, FilledLinkToMediaField } from '@prismicio/types'
 
-  export let title: string
-  export let description: RichTextField
-  export let image: ImageFieldImage
-  export let document: FilledLinkToMediaField
+  export let report: Report
 </script>
 
-<h2>{title}</h2>
+<h2>{report.title}</h2>
 
-{@html prismic.asHTML(description)}
+{@html prismic.asHTML(report.description)}
 
-<img src={image.url} alt={image.alt} />
+<div class="image">
+  <img src={report.image.url} alt={report.image.alt} />
+</div>
 
-<a href={document.url}>Bericht herunterladen ({filesize(parseInt(document.size, 10))})</a>
+<a class="download" href={report.document.url}>
+  Bericht herunterladen<br />
+  ({filesize(parseInt(report.document.size, 10))})
+</a>
 
-<style>
+<style lang="scss">
+  .image {
+    margin: 3rem 0;
+  }
   img {
     max-width: 100%;
+  }
+  .download {
+    display: block;
+    margin: 1.5rem auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 3px;
+    padding: 0.5em 0.75em;
+    width: 14em;
+    text-align: center;
+    &:hover {
+      text-decoration: none;
+      background: #2ec59811;
+    }
   }
 </style>
