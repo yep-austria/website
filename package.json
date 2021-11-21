@@ -10,7 +10,12 @@
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
   },
+  "dependencies": {
+    "@prismicio/helpers": "^2.0.0-beta.3",
+    "filesize": "^8.0.6"
+  },
   "devDependencies": {
+    "@prismicio/client": "^6.0.0-beta.3",
     "@sveltejs/adapter-static": "^1.0.0-next.21",
     "@sveltejs/kit": "next",
     "@typescript-eslint/eslint-plugin": "^5.4.0",

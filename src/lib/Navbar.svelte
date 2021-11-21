@@ -1,7 +1,7 @@
 <nav>
   <a class="home" href="/">YEP</a>
   <div class="menu">
-    <a href="/berichte/">Berichte</a>
+    <a href="/reports/">Berichte</a>
     <a href="/about/">About</a>
   </div>
 </nav>
