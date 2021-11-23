@@ -1,5 +1,5 @@
-<div class="container">
-  <h1 class="h1_black">Impressum</h1>
+<section>
+  <h1>Impressum</h1>
 
   <p>
     YEP - Stimme der Jugend<br />
@@ -24,4 +24,4 @@
   <div class="email"><a href="mailto:hello@yep-austria.org">hello@yep-austria.org</a></div>
   <p />
   <p>Verantwortlich für Website und Inhalt: <br />Rebekka Dober</p>
-</div>
+</section>

@@ -10,7 +10,7 @@
   nav {
     background-color: var(--primary-color);
     padding: 0 var(--content-calculated-padding);
-    height: 3.125rem;
+    height: var(--navbar-height);
     display: flex;
     align-items: center;
     justify-content: space-between;

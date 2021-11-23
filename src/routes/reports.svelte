@@ -23,7 +23,7 @@
     .map(slice => slice.primary)
 </script>
 
-<div class="container">
+<section>
   <h1>{document.data.page_title}</h1>
 
   <br /><br />
@@ -36,7 +36,7 @@
       <hr />
     {/if}
   {/each}
-</div>
+</section>
 
 <style lang="scss">
   .report {

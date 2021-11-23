@@ -1,5 +1,5 @@
-<div class="container">
-  <h1 class="h1_black">Privacy Policy</h1>
+<section>
+  <h1>Privacy Policy</h1>
 
   <h3>Datenschutzerklärung</h3>
   <p>
@@ -31,4 +31,4 @@
     datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, kannst du dich bei
     der uns hello@yep-austria.org oder der Datenschutzbehörde beschweren.
   </p>
-</div>
+</section>

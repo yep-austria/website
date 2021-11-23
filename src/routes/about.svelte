@@ -1,13 +1,13 @@
-<div class="container">
-  <h1 class="h1_black">YEP - Für mehr Mitbestimmung Jugendlicher in unserer Gesellschaft</h1>
+<section>
+  <h1>YEP - Für mehr Mitbestimmung Jugendlicher in unserer Gesellschaft</h1>
 
-  <h4>
+  <p class="large">
     YEP steht für Youth Empowerment & Participation, genau das ist auch Programm. Eine starke
     Zivilgesellschaft ist heute wichtiger denn je - je mehr Menschen partizipieren und mitmachen,
     desto stärker sind wir. Damit Jugendliche zu aktiven, mündigen Bürger*innen werden, muss man
     ihre Stimme aber auch ernst nehmen, denn Demokratie und Teilhabe sind Prozesse, die man nur
     lernen kann, wenn man sie erlebt.
-  </h4>
+  </p>
 
   <!--Image:-->
   <div class="headerimg">
@@ -64,4 +64,10 @@
     <a href="https://twitter.com/YEP_Austria" target="_blank">Twitter </a>und
     <a href="https://www.instagram.com/yep_austria/" target="_blank">Instagram</a>
   </p>
-</div>
+</section>
+
+<style>
+  .large {
+    font-size: 1.25rem;
+  }
+</style>

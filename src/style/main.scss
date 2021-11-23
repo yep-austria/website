@@ -1,5 +1,7 @@
 :root {
+  --navbar-height: 3.125rem;
   --content-width: 48rem;
+  --content-vertical-padding: 1.5rem;
   --content-padding: 1.5rem;
   --content-calculated-padding: max(
     var(--content-padding),
@@ -50,32 +52,23 @@ h3 {
   margin-top: 40px;
 }
 
-h4 {
-  font-size: 1.25em;
-  font-weight: 400;
-  line-height: 1.5em;
+img {
+  max-width: 100%;
 }
 
-.container {
-  margin: 0;
-  padding: 10% var(--content-calculated-padding);
-  position: relative;
-}
-.container a {
-  color: #2ec598;
-  text-decoration: none;
-}
-.container a:hover {
-  text-decoration: underline;
-}
-.container h2 {
-  font-size: 2rem;
-  margin-bottom: 30px;
-}
-
-.h1_black {
-  color: black;
-  padding-bottom: 1em;
+main {
+  > section {
+    margin: 0;
+    padding: var(--content-vertical-padding) var(--content-calculated-padding);
+    position: relative;
+  }
+  a {
+    color: #2ec598;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .headerimg img {
@@ -84,188 +77,6 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   padding-top: 40px;
-}
-
-.contentwidth {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 15px;
-  padding-top: 15%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.headerwidth {
-  max-width: 800px;
-  position: relative;
-  margin: 0 auto;
-  padding: 15px;
-}
-
-header {
-  height: 100vh;
-  min-height: 600px;
-  text-align: center;
-  background-color: #7cefc0;
-  background-image: url('/assets/header_background.png');
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-header .yep {
-  padding-top: 20vh;
-  display: block;
-}
-header .yep img {
-  max-width: 385px;
-}
-header .subline {
-  bottom: 100px;
-  margin-top: 10%;
-}
-header .subline img {
-  max-width: 222px;
-}
-@media screen and (max-width: 411px) {
-  header {
-    background-size: 130%;
-    background-position: center 10%;
-    background-repeat: repeat;
-  }
-  header .yep img {
-    max-width: 90%;
-  }
-  header .yep {
-    padding-top: 15vh;
-  }
-}
-
-.part1 {
-  height: 90vh;
-  min-height: 550px;
-  background-color: #ef7c8c;
-}
-.part1 .headline {
-  color: white;
-  font-style: italic;
-  max-width: 370px;
-  background-image: url('/assets/hands.png');
-  background-size: 70%;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-}
-.part1 .content {
-  width: 50%;
-  padding-top: 15px;
-  max-width: 370px;
-}
-.part1 .content {
-  width: 100%;
-  padding-top: 15px;
-}
-.part1 .button {
-  background-color: none;
-  border: solid 1.5px black;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  margin-top: 20px;
-  transition: opacity 0.5s;
-}
-.part1 .button:hover {
-  opacity: 0.75;
-}
-
-.part2 {
-  height: 90vh;
-  min-height: 600px;
-  background-color: #ee7102;
-}
-.part2 h1 {
-  color: white;
-  font-style: italic;
-  max-width: 370px;
-  background-image: url('/assets/lightning.png');
-  background-size: 20%;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-.part2 .content {
-  width: 50%;
-  padding-top: 10px;
-  max-width: 370px;
-  color: #3f2a17;
-}
-@media screen and (max-width: 411px) {
-  .part2 {
-    min-height: 620px;
-  }
-  .part2 .content {
-    width: 100%;
-    padding-top: 15px;
-  }
-}
-
-.part3 {
-  height: 90vh;
-  min-height: 550px;
-  background-color: #7cefcd;
-}
-.part3 .design {
-  width: 50%;
-  padding-top: 10px;
-  max-width: 320px;
-  text-align: center;
-}
-.part3 img {
-  transform: scale(0.5);
-  margin: -10px;
-}
-.part3 a {
-  color: white;
-  font-weight: 900;
-  text-decoration: none;
-}
-.part3 a:hover {
-  text-decoration: underline;
-}
-@media screen and (max-width: 411px) {
-  .part3 {
-    height: 100%;
-  }
-  .part3 .design {
-    width: 100%;
-    margin-bottom: 25px;
-  }
-}
-
-footer {
-  height: 54px;
-  position: relative;
-  border-top: 1px solid #7cefc0;
-}
-footer a:link,
-footer a:visited,
-footer a:active {
-  color: black;
-  text-decoration: none;
-}
-footer a:hover {
-  text-decoration: underline;
-}
-footer .footerwidth {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 hr {

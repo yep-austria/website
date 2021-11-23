@@ -1,5 +1,6 @@
 import preprocess from 'svelte-preprocess'
 import adapter from '@sveltejs/adapter-static'
+import Icons from 'unplugin-icons/vite'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -17,6 +18,13 @@ const config = {
       assets: 'build',
       fallback: null,
     }),
+    vite: {
+      plugins: [
+        Icons({
+          compiler: 'svelte',
+        }),
+      ],
+    },
   },
 }
 
