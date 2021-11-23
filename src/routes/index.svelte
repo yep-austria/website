@@ -172,6 +172,11 @@ Für mehr Mitsprache und wahre Mitbestimmung in der Gesellschaft.
   }
   .about-them {
     background-color: #ee7102;
+    @media (min-width: 40rem) {
+      .content {
+        order: -1;
+      }
+    }
   }
   .more-info {
     background-color: #7cefcd;
