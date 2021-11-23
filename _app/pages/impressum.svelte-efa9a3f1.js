@@ -1,0 +1,19 @@
+import{S as ie,i as se,s as le,e as r,t as s,k as c,c as i,a as h,g as l,d as a,n as d,b as ne,f as ae,D as e,E as L}from"../chunks/vendor-6029d7dd.js";function he(re){let t,b,P,D,o,B,G,J,S,z,W,I,u,T,M,R,x,y,Y,k,A,H,v,C,F,m,f,Z,j,_,q,g,N,O,K;return{c(){t=r("section"),b=r("h1"),P=s("Impressum"),D=c(),o=r("p"),B=s("YEP - Stimme der Jugend"),G=r("br"),J=s(`
+    Verein f\xFCr Mitbestimmung, gesellschaftliche Partizipation und Empowerment von Jugendlichen.`),S=c(),z=r("h3"),W=s("Vereinszweck"),I=c(),u=r("p"),T=s(`Die Vereinst\xE4tigkeit ist nicht auf Gewinn ausgerichtet und bezweckt ausschlie\xDFlich und
+    unmittelbar die F\xF6rderung von Jugendlichen im Bereich Bildung, Selbsterm\xE4chtigung, Teilhabe und
+    Mitbestimmung in der Gesellschaft. `),M=r("br"),R=s(`
+    Der Verein ist unabh\xE4ngig, \xFCberparteilich und dessen T\xE4tigkeit ist nicht auf Gewinn ausgerichtet.
+    Das Ziel ist Jugendliche zu erm\xE4chtigen an gesellschaftlichen Prozessen teilzuhaben, strukturelle
+    Voraussetzungen hierf\xFCr zu erwirken und somit zu einer h\xF6heren Breite an demokratischer Teilhabe
+    in der Gesellschaft zu f\xFChren. `),x=r("br"),y=s(`
+    Der Verein f\xFChlt sich den Werten der Allgemeinen Erkl\xE4rung der Menschenrechte verpflichtet, agiert
+    werteorientiert auf diesen Grunds\xE4tzen & setzt sich f\xFCr die Verbreitung dieser Werte ein.`),Y=c(),k=r("h3"),A=s("YEP - Stimme der Jugend"),H=c(),v=r("p"),C=s("Wien, 1030"),F=c(),m=r("div"),f=r("a"),Z=s("hello@yep-austria.org"),j=c(),_=r("p"),q=c(),g=r("p"),N=s("Verantwortlich f\xFCr Website und Inhalt: "),O=r("br"),K=s("Rebekka Dober"),this.h()},l(E){t=i(E,"SECTION",{});var n=h(t);b=i(n,"H1",{});var Q=h(b);P=l(Q,"Impressum"),Q.forEach(a),D=d(n),o=i(n,"P",{});var V=h(o);B=l(V,"YEP - Stimme der Jugend"),G=i(V,"BR",{}),J=l(V,`
+    Verein f\xFCr Mitbestimmung, gesellschaftliche Partizipation und Empowerment von Jugendlichen.`),V.forEach(a),S=d(n),z=i(n,"H3",{});var U=h(z);W=l(U,"Vereinszweck"),U.forEach(a),I=d(n),u=i(n,"P",{});var p=h(u);T=l(p,`Die Vereinst\xE4tigkeit ist nicht auf Gewinn ausgerichtet und bezweckt ausschlie\xDFlich und
+    unmittelbar die F\xF6rderung von Jugendlichen im Bereich Bildung, Selbsterm\xE4chtigung, Teilhabe und
+    Mitbestimmung in der Gesellschaft. `),M=i(p,"BR",{}),R=l(p,`
+    Der Verein ist unabh\xE4ngig, \xFCberparteilich und dessen T\xE4tigkeit ist nicht auf Gewinn ausgerichtet.
+    Das Ziel ist Jugendliche zu erm\xE4chtigen an gesellschaftlichen Prozessen teilzuhaben, strukturelle
+    Voraussetzungen hierf\xFCr zu erwirken und somit zu einer h\xF6heren Breite an demokratischer Teilhabe
+    in der Gesellschaft zu f\xFChren. `),x=i(p,"BR",{}),y=l(p,`
+    Der Verein f\xFChlt sich den Werten der Allgemeinen Erkl\xE4rung der Menschenrechte verpflichtet, agiert
+    werteorientiert auf diesen Grunds\xE4tzen & setzt sich f\xFCr die Verbreitung dieser Werte ein.`),p.forEach(a),Y=d(n),k=i(n,"H3",{});var X=h(k);A=l(X,"YEP - Stimme der Jugend"),X.forEach(a),H=d(n),v=i(n,"P",{});var $=h(v);C=l($,"Wien, 1030"),$.forEach(a),F=d(n),m=i(n,"DIV",{class:!0});var ee=h(m);f=i(ee,"A",{href:!0});var te=h(f);Z=l(te,"hello@yep-austria.org"),te.forEach(a),ee.forEach(a),j=d(n),_=i(n,"P",{}),h(_).forEach(a),q=d(n),g=i(n,"P",{});var w=h(g);N=l(w,"Verantwortlich f\xFCr Website und Inhalt: "),O=i(w,"BR",{}),K=l(w,"Rebekka Dober"),w.forEach(a),n.forEach(a),this.h()},h(){ne(f,"href","mailto:hello@yep-austria.org"),ne(m,"class","email")},m(E,n){ae(E,t,n),e(t,b),e(b,P),e(t,D),e(t,o),e(o,B),e(o,G),e(o,J),e(t,S),e(t,z),e(z,W),e(t,I),e(t,u),e(u,T),e(u,M),e(u,R),e(u,x),e(u,y),e(t,Y),e(t,k),e(k,A),e(t,H),e(t,v),e(v,C),e(t,F),e(t,m),e(m,f),e(f,Z),e(t,j),e(t,_),e(t,q),e(t,g),e(g,N),e(g,O),e(g,K)},p:L,i:L,o:L,d(E){E&&a(t)}}}class ce extends ie{constructor(t){super();se(this,t,null,he,le,{})}}export{ce as default};
